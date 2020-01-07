@@ -1,0 +1,56 @@
+body {
+    color: #115093;
+}
+
+section {
+    margin-top: 100px;
+    border: 3px double darkgrey;
+    border-radius: 1em;
+    background-color: lightsteelblue;
+    padding: 15px;
+}
+
+h1 {
+    margin: 10px 0 15px 0; 
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    margin: 5px 0 10px 0;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.3em;
+}
+
+hr {
+    margin: 10px 0 10px 0;
+}
+
+button {
+    margin: 1% 10%;
+    min-width: 25%;
+}
+
+#controls {
+    border: 2px solid darkgray;
+    border-radius: 1em;
+    background-color: whitesmoke;
+    padding: 15px;
+
+    
+
+}
+
+#result {
+    border: 2px dotted darkgray;
+    border-radius: 1em;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1em;
+    font-family: "Nunito Sans", sans-serif;
+    color: #939393;
+}
