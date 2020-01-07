@@ -4,7 +4,7 @@ function BAKpwGen() {
     var charsetNums = "0123456789";
     var charsetLows = "abcdefghijklmnopqrstuvwxyz";
     var charsetUps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    var charsetSpecs = "!@#$%^&*()_-+={}[]:;<>?/";
+    var charsetSpecs = "!@#$%^&*()_-+={}[]:;?";
 
     //Introduces program and prompts user to continue
     var runPwGen = confirm("Welcome to Password Generator!  Your may choose a password length between 8 and 128 characters.  Would you like to continue?");
@@ -64,12 +64,12 @@ function BAKpwGen() {
     }       
 
     var password = document.getElementById("password");
-    password.innerHTML = resultPW;
     password.style.color = "black";
     password.style.fontWeight = "800";
     password.style.fontSize = "1.5em";
     password.style.fontStyle = "normal"; 
-    password.style.fontFamily = "monospace";   
+    password.style.fontFamily = "monospace"; 
+    password.innerHTML = resultPW;
 
     console.log("...and we're done!");
 }
